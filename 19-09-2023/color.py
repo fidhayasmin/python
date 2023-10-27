@@ -1,9 +1,9 @@
-colorlist1=["white","Black","Red"]
-colorlist2=["Red","Green"]
+color_list1=set(["white","Black","Red"])
+color_list2=set(["Red","Green"])
 print("Original set elements")
-print(colorlist1)
-print(colorlist2)
-print("\n Difference of colorlist1 & colorlist2")
-print(colorlist1-colorlist2)
-print("\n Difference of colorlist2 & colorlist1")
-print(colorlist2-colorlist1)
+print(color_list1)
+print(color_list2)
+print("\n Difference of color_list1 and color_list2")
+print(color_list1-color_list2)
+print("\n Difference of color_list2 and color_list1")
+print(color_list2-color_list1)
